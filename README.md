@@ -112,14 +112,3 @@ Uygulamanın veritabanı ilişkisel şeması aşağıdaki gibidir. (Müşteriler
 Projede kullanılan hassas veriler .env.example dosyasında şablon olarak tanımlanmıştır. Güvenlik sebebiyle .env dosyası repoya eklenmemiştir.
 
 
-
-
-
-
-
-
-
-
-
-
-
