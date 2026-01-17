@@ -69,7 +69,6 @@ Proje dizinindeki .env.example dosyasını kopyalayarak .env dosyasını oluştu
 
 ```bash
 cp .env.example .env
-.env dosyası içerisine veritabanı bilgilerinizi girin. (Mac/DBngin için 127.0.0.1 önerilir).
 ```
 
 Veritabanını Kurun (Önemli):
