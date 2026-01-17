@@ -65,7 +65,6 @@ npm install
 
 Ortam değişkenlerini ayarlayın:
 
-```bash
 Proje dizinindeki .env.example dosyasını kopyalayarak .env dosyasını oluşturun.
 
 ```bash
