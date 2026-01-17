@@ -111,7 +111,7 @@ Mesaj: "Kritik bakım durumundaki araca uzun mesafe görevi atanamaz."
 
 Uygulamanın veritabanı ilişkisel şeması aşağıdaki gibidir. (Müşteriler, Araçlar, Şoförler, Rotalar ve Sevkiyatlar arasındaki ilişkiler)
 
-![ER Diyagramı](screenshots/er_diyagrami.png)
+![ER Diyagramı](screenshots/r_diyagrami.png)
 
 
 Projede kullanılan hassas veriler .env.example dosyasında şablon olarak tanımlanmıştır. Güvenlik sebebiyle .env dosyası repoya eklenmemiştir.
