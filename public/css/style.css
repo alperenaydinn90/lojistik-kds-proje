@@ -1,0 +1,38 @@
+:root {
+    --bg-primary: #f4f7f6;
+    --bg-secondary: #ffffff;
+    --text-primary: #2c3e50;
+    --accent-color: #3498db;
+    --danger-color: #e74c3c;
+    --warning-color: #f39c12;
+    --success-color: #27ae60;
+}
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-primary); margin: 0; color: var(--text-primary); }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+/* Navbar */
+.navbar { background: #2c3e50; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; color: white; border-radius: 0 0 10px 10px; }
+.nav-links { list-style: none; display: flex; gap: 20px; }
+.nav-links a { color: #ecf0f1; text-decoration: none; font-weight: 500; transition: 0.3s; }
+.nav-links a:hover { color: var(--accent-color); }
+
+/* Kartlar */
+.card { background: var(--bg-secondary); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; }
+.dashboard-header h1 { font-size: 2rem; color: #34495e; }
+
+/* Tablo */
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+th { background-color: #f8f9fa; color: #7f8c8d; font-weight: 600; }
+tr:hover { background-color: #f1f1f1; }
+
+/* Rozetler */
+.badge { padding: 5px 12px; border-radius: 15px; font-size: 0.85em; font-weight: bold; color: white; }
+.badge-red { background-color: var(--danger-color); }
+.badge-orange { background-color: var(--warning-color); }
+.badge-green { background-color: var(--success-color); }
+
+/* KDS Özel Alanlar */
+.risk-indicator { display: flex; align-items: center; justify-content: space-around; padding: 30px; background: white; border-radius: 10px; }
+.risk-score { font-size: 4rem; font-weight: bold; color: var(--accent-color); }
