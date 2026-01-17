@@ -88,7 +88,7 @@ Uygulama varsayılan olarak şu adreste çalışır: http://localhost:5001
 
 ![API ENDPOINT LISTESI](screenshots/api_endpoints.png)
 
-⚖️ ## İş Kuralları (Business Rules)
+⚖️ İş Kuralları (Business Rules)
 Sistem, karar destek mekanizmasında aşağıdaki katı kuralları uygular:
 
 1. Olumsuz Hava Koşullarında Risk Eskalasyonu
