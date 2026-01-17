@@ -52,7 +52,7 @@ Bu proje Node.js ve MySQL tabanlıdır.
 1. **Projeyi klonlayın:**
 
 ```bash
-git clone [https://github.com/alperenaydinn90/lojistik-kds-proje.git](https://github.com/KULLANICI_ADIN/lojistik-kds-proje.git)
+git clone [https://github.com/alperenaydinn90/lojistik-kds-proje.git](https://github.com/alperenaydinn90/lojistik-kds-proje.git)
 cd lojistik-kds-proje
 
 Bağımlılıkları yükleyin:
