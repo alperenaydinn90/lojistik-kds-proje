@@ -54,31 +54,36 @@ Bu proje Node.js ve MySQL tabanlıdır.
 ```bash
 git clone [https://github.com/alperenaydinn90/lojistik-kds-proje.git](https://github.com/alperenaydinn90/lojistik-kds-proje.git)
 cd lojistik-kds-proje
+```
 
 Bağımlılıkları yükleyin:
 
-Bash
+```bash
 
 npm install
+```
+
 Ortam değişkenlerini ayarlayın:
 
+```bash
 Proje dizinindeki .env.example dosyasını kopyalayarak .env dosyasını oluşturun.
 
-Bash
-
+```bash
 cp .env.example .env
 .env dosyası içerisine veritabanı bilgilerinizi girin. (Mac/DBngin için 127.0.0.1 önerilir).
+```
 
 Veritabanını Kurun (Önemli):
 
-Bash
-
+```bash
 node kurulum.js
+```
 Uygulamayı başlatın:
 
-Bash
-
+```bash
 npm start
+```
+
 Uygulama varsayılan olarak şu adreste çalışır: http://localhost:5001
 
 ## API Endpoint Listesi
